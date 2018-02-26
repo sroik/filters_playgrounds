@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sroik/Desktop/bilateral_filter.playground#CharacterRangeLen=5&amp;CharacterRangeLoc=5601&amp;EndingColumnNumber=6&amp;EndingLineNumber=197&amp;StartingColumnNumber=1&amp;StartingLineNumber=197&amp;Timestamp=541348967.933538"
+         lockedSize = "{206, 190}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sroik/Desktop/bilateral_filter.playground#CharacterRangeLen=18&amp;CharacterRangeLoc=5651&amp;EndingColumnNumber=3&amp;EndingLineNumber=199&amp;StartingColumnNumber=51&amp;StartingLineNumber=197&amp;Timestamp=541348967.933722"
+         lockedSize = "{202, 200}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sroik/Desktop/bilateral_filter.playground#CharacterRangeLen=5&amp;CharacterRangeLoc=5602&amp;EndingColumnNumber=7&amp;EndingLineNumber=197&amp;StartingColumnNumber=2&amp;StartingLineNumber=197&amp;Timestamp=541348967.933857"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sroik/Desktop/bilateral_filter.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=5642&amp;EndingColumnNumber=51&amp;EndingLineNumber=197&amp;StartingColumnNumber=42&amp;StartingLineNumber=197&amp;Timestamp=541348967.933977"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sroik/Desktop/bilateral_filter.playground#CharacterRangeLen=8&amp;CharacterRangeLoc=6019&amp;EndingColumnNumber=13&amp;EndingLineNumber=209&amp;StartingColumnNumber=5&amp;StartingLineNumber=209&amp;Timestamp=541348967.934095"
+         lockedSize = "{200, 195}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sroik/Desktop/bilateral_filter.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=5831&amp;EndingColumnNumber=14&amp;EndingLineNumber=205&amp;StartingColumnNumber=5&amp;StartingLineNumber=205&amp;Timestamp=541348967.934224"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sroik/Desktop/bilateral_filter.playground#CharacterRangeLen=5&amp;CharacterRangeLoc=5792&amp;EndingColumnNumber=10&amp;EndingLineNumber=203&amp;StartingColumnNumber=5&amp;StartingLineNumber=203&amp;Timestamp=541348967.934343"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>

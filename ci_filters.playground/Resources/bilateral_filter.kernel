@@ -1,0 +1,36 @@
+
+/* 1 / sqrt(2 * pi) = 0.3989422803 */
+
+float gauss(in float x, in float sigma) {
+    return 0.3989422803 * exp(-0.5 * (x * x) / (sigma * sigma)) / sigma;
+}
+
+float gauss3(in vec3 v, in float sigma) {
+    return 0.3989422803 * exp(-0.5 * dot(v, v) / (sigma * sigma)) / sigma;
+}
+
+kernel vec4 bilateral(sampler img, float kernelSize, float sigma_r, float sigma_s) {
+    int kernelRadius = int(kernelSize - 1.0) / 2;
+    
+    float normalizationFactor = 0.0;
+    float distanceNormalizationFactor = 1.0 / gauss(0.0, sigma_s);
+    vec3 inputColor = sample(img, samplerCoord(img)).rgb;
+    vec3 outputColor = vec3(0.0);
+    
+    for (int i = -kernelRadius; i <= kernelRadius; i++) {
+        for (int j = -kernelRadius; j <= kernelRadius; j++) {
+            
+            vec2 offsetCoord = destCoord().xy + vec2(float(i), float(j));
+            vec3 offsetColor = sample(img, samplerTransform(img, offsetCoord)).rgb;
+            vec3 distance = offsetColor - inputColor;
+
+            float range = gauss(float(i), sigma_r) * gauss(float(j), sigma_r);
+            float weight = range * gauss3(distance, sigma_s) * distanceNormalizationFactor;
+
+            outputColor += weight * offsetColor;
+            normalizationFactor += weight;
+        }
+    }
+
+    return vec4(outputColor / normalizationFactor, 1.0);
+}
