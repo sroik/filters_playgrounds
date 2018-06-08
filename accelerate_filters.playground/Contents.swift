@@ -61,7 +61,7 @@ extension CGImage {
         let flatKernel = kernel.flatMap { $0 }
         let (kernelW, kernelH) = (UInt32(kernel.first?.count ?? 0), UInt32(kernel.count))
 
-                var kernels: [UnsafePointer<Int16>?] = [
+        var kernels: [UnsafePointer<Int16>?] = [
             UnsafePointer(flatKernel),
             UnsafePointer(flatKernel),
             UnsafePointer(flatKernel),
@@ -131,4 +131,3 @@ imageView.image = UIImage(cgImage: cgImage.convolve(with: Filter.edge))
 
 imageView.image = UIImage(cgImage: cgImage.convolve(with: Filter.gaussBlur))
 
-print("The End!")
