@@ -2,6 +2,7 @@ import UIKit
 import Foundation
 import CoreGraphics
 import Accelerate
+import simd
 import PlaygroundSupport
 
 enum Filter {
@@ -41,11 +42,11 @@ enum Filter {
 
 extension CGImage {
     
-    func convolve(with filter: Filter) -> CGImage {
-        return convolve(with: filter.convolutionMatrix, divisor: filter.convolutionDivisor)
+    func convolve(with filter: Filter, bias: Int32 = 0) -> CGImage {
+        return convolve(with: filter.convolutionMatrix, divisor: filter.convolutionDivisor, bias: bias)
     }
     
-    func convolve(with kernel: [[Int16]], divisor: Int32 = 1) -> CGImage {
+    func convolve(with kernel: [[Int16]], divisor: Int32 = 1, bias: Int32 = 0) -> CGImage {
         let vHeight = vImagePixelCount(height)
         let vWidth = vImagePixelCount(width)
         let vBitsPerPixel = UInt32(bitsPerPixel)
@@ -69,7 +70,7 @@ extension CGImage {
         ]
 
         let divisors = [divisor, divisor, divisor, 1]
-        let biases: [Int32] = [0, 0, 0, 0]
+        let biases: [Int32] = [bias, bias, bias, 0]
 
         let convolutionError = vImageConvolveMultiKernel_ARGB8888(
             &inputBuffer, &outputBuffer,
@@ -117,7 +118,7 @@ extension CGImage {
 
 let imageView = UIImageView()
 imageView.contentMode = .scaleAspectFit
-imageView.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+imageView.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
 
 guard let image = UIImage(named: "img_small.png"), let cgImage = image.cgImage else {
     fatalError("image doesn't exist")
@@ -125,9 +126,9 @@ guard let image = UIImage(named: "img_small.png"), let cgImage = image.cgImage e
 
 imageView.image = image
 
-imageView.image = UIImage(cgImage: cgImage.convolve(with: Filter.sharp))
 
-imageView.image = UIImage(cgImage: cgImage.convolve(with: Filter.edge))
+imageView.image = UIImage(cgImage: cgImage.convolve(with: Filter.sharp, bias: 25))
+
+imageView.image = UIImage(cgImage: cgImage.convolve(with: Filter.edge, bias: 100))
 
 imageView.image = UIImage(cgImage: cgImage.convolve(with: Filter.gaussBlur))
-

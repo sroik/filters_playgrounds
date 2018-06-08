@@ -3,35 +3,49 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=251&amp;CharacterRangeLoc=4043&amp;EndingColumnNumber=0&amp;EndingLineNumber=133&amp;StartingColumnNumber=0&amp;StartingLineNumber=124&amp;Timestamp=550133391.730321"
+         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=272&amp;CharacterRangeLoc=4110&amp;EndingColumnNumber=0&amp;EndingLineNumber=134&amp;StartingColumnNumber=0&amp;StartingLineNumber=125&amp;Timestamp=550134529.6146359"
          lockedSize = "{205, 205}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=4070&amp;EndingColumnNumber=10&amp;EndingLineNumber=127&amp;StartingColumnNumber=1&amp;StartingLineNumber=127&amp;Timestamp=550133391.7304929"
-         lockedSize = "{182, 159}"
+         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=4220&amp;EndingColumnNumber=0&amp;EndingLineNumber=130&amp;StartingColumnNumber=0&amp;StartingLineNumber=130&amp;Timestamp=550134529.614763"
+         lockedSize = "{292, 279}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=4045&amp;EndingColumnNumber=10&amp;EndingLineNumber=125&amp;StartingColumnNumber=1&amp;StartingLineNumber=125&amp;Timestamp=550133391.73059"
-         lockedSize = "{199, 188}"
+         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=4112&amp;EndingColumnNumber=10&amp;EndingLineNumber=126&amp;StartingColumnNumber=1&amp;StartingLineNumber=126&amp;Timestamp=550134529.614856"
+         lockedSize = "{305, 306}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=4217&amp;EndingColumnNumber=10&amp;EndingLineNumber=131&amp;StartingColumnNumber=1&amp;StartingLineNumber=131&amp;Timestamp=550133391.730682"
+         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=4306&amp;EndingColumnNumber=10&amp;EndingLineNumber=133&amp;StartingColumnNumber=1&amp;StartingLineNumber=133&amp;Timestamp=550134529.614942"
+         lockedSize = "{302, 296}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=72&amp;CharacterRangeLoc=4143&amp;EndingColumnNumber=0&amp;EndingLineNumber=130&amp;StartingColumnNumber=0&amp;StartingLineNumber=129&amp;Timestamp=550133391.730767"
+         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=83&amp;CharacterRangeLoc=4221&amp;EndingColumnNumber=0&amp;EndingLineNumber=132&amp;StartingColumnNumber=0&amp;StartingLineNumber=131&amp;Timestamp=550134529.615027"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=4144&amp;EndingColumnNumber=10&amp;EndingLineNumber=129&amp;StartingColumnNumber=1&amp;StartingLineNumber=129&amp;Timestamp=550133391.7308511"
+         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=4222&amp;EndingColumnNumber=10&amp;EndingLineNumber=131&amp;StartingColumnNumber=1&amp;StartingLineNumber=131&amp;Timestamp=550134529.615109"
+         lockedSize = "{299, 299}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=4135&amp;EndingColumnNumber=0&amp;EndingLineNumber=127&amp;StartingColumnNumber=0&amp;StartingLineNumber=127&amp;Timestamp=550134529.615195"
+         lockedSize = "{303, 293}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sroik/repositories/filters_playgrounds/accelerate_filters.playground#CharacterRangeLen=9&amp;CharacterRangeLoc=4138&amp;EndingColumnNumber=10&amp;EndingLineNumber=129&amp;StartingColumnNumber=1&amp;StartingLineNumber=129&amp;Timestamp=550134529.615279"
+         lockedSize = "{304, 273}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
